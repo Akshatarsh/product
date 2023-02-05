@@ -2,10 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -14,18 +11,21 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url(./image/fox-trees-fantasy-art-dreamland-wallpaper-preview.jpg);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: medium;
+  color: rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #2ba5c7;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +35,105 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#login{
+  margin: 10px;
+  color: #ffffff;
+  width: 200px;
+  background-image: url(./image/fox-trees-fantasy-art-dreamland-wallpaper-preview.jpg);
+  border-radius: 20px;
+}
+
+#signup{
+  margin: 10px;
+  color: #ffffff;
+  width: 200px;
+  background-color: azure;
+  background-image: url(./image/fox-trees-fantasy-art-dreamland-wallpaper-preview.jpg);
+  border-radius: 20px ;
+}
+
+#cancel{
+  margin: 10px;
+  color: #d82e10;
+}
+
+.box{
+  background: rgb(255, 255, 255);
+  border: 0px solid rgb(14, 10, 10);
+  border-radius: 20px ;
+  height: 400px;
+  background-image: url(./image/fox-trees-fantasy-art-dreamland-wallpaper-preview.jpg);
+  background-size: cover;
+}
+
+.title{
+  font-size: x-large;
+  margin: 20px;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+label{
+  text-align: left;
+}
+
+input{
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.forgetpassword{
+  font-size: small;
+  text-align: right;
+  margin-left: 0px;
+  margin-top: 20px;
+}
+
+.orsignup{
+  margin-top: 30px;
+  font-size: small;
+
+}
+
+#facebook{
+  margin: 10px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(52, 71, 243);
+  border-radius: 20px;
+  
+
+}
+
+#google{
+  margin: 10px;
+  color: #d82e10;
+  border-radius: 20px;
+}
+
+#W{
+  font-size: 30px;
+  margin: 0px;
+  font-weight: 300;
+}
+
+.name{
+  margin: 10px;
+}
+
+.Dob{
+  margin: 20px;
+}
+
+.PhNo{
+  margin: 20px;
+}
+
+#ok{
+  margin: 20px;
 }
