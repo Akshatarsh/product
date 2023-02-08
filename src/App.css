@@ -3,27 +3,25 @@
 }
 
 
-
+/* 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
+} */
+/* 
 .App-header {
-  background-image: url(./image/fox-trees-fantasy-art-dreamland-wallpaper-preview.jpg);
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   font-size: medium;
-  color: rgb(0, 0, 0);
+  color: rgb(231, 16, 16);
   background-repeat: no-repeat;
   background-size: cover;
-}
-
+} */
+/* 
 .App-link {
   color: #2ba5c7;
 }
@@ -35,105 +33,467 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+#header{
+  background-image: url(./image/hand-drawn-shopping-pattern-design_23-2149628702.avif);
+  font-style: italic;
+  color: #194e8b;
+  width: 100%;
+
 }
 
-#login{
-  margin: 10px;
-  color: #ffffff;
-  width: 200px;
-  background-image: url(./image/fox-trees-fantasy-art-dreamland-wallpaper-preview.jpg);
-  border-radius: 20px;
-}
-
-#signup{
-  margin: 10px;
-  color: #ffffff;
-  width: 200px;
-  background-color: azure;
-  background-image: url(./image/fox-trees-fantasy-art-dreamland-wallpaper-preview.jpg);
-  border-radius: 20px ;
-}
-
-#cancel{
-  margin: 10px;
-  color: #d82e10;
-}
-
-.box{
-  background: rgb(255, 255, 255);
-  border: 0px solid rgb(14, 10, 10);
-  border-radius: 20px ;
-  height: 400px;
-  background-image: url(./image/fox-trees-fantasy-art-dreamland-wallpaper-preview.jpg);
+.Nimage{
+  background-image: url("./image/hand-drawn-shopping-pattern-design_23-2149628702.avif");
   background-size: cover;
-}
-
-.title{
-  font-size: x-large;
-  margin: 20px;
-}
-
-.info{
+  margin-top: 0px ;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  margin: 20px;
+  justify-content: space-between;
+  
 }
 
-label{
-  text-align: left;
-}
-
-input{
-  border: none;
-  border-bottom: 1px solid black;
-}
-
-.forgetpassword{
-  font-size: small;
-  text-align: right;
-  margin-left: 0px;
-  margin-top: 20px;
-}
-
-.orsignup{
-  margin-top: 30px;
-  font-size: small;
+.items{
+  /* background-color: #c6d1d4; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
 
 }
 
-#facebook{
+.a1{
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(14, 10, 10);
+  border-radius: 20px ;
+  height: 150px;
+  width: 270px;
+  background-image: url();
+  background-size: cover;
   margin: 10px;
-  color: rgb(255, 255, 255);
-  background-color: rgb(52, 71, 243);
-  border-radius: 20px;
+}
+
+.Phone{
+  background-image: url('./image/index.png');
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin-top:25px;
+      
+} 
+
+.Phdetails{
+    /* background-image: url(./image/thunderstorm-3441687_960_720.jpg); */
+    /* background-color: #79b3b3; */
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    height: 150px;
+    margin-top: -120px;
+    margin-left: 75px;
+    border-radius: 20px;
+  
+  } 
+
+  #pd1{
+    font-style:italic ;
+    font-size: medium;
+    text-align: justify;
+  }
+
+.a2{
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(14, 10, 10);
+  border-radius: 20px ;
+  height: 150px;
+  width: 270px;
+  background-image: url();
+  background-size: cover;
+  margin: 10px;
+}
+
+.Clothing{
+  background-image: url('./image/clothing.png');
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin-top:25px;
+  margin-left: -5px;
+      
+} 
+
+.Clothingdetails{    
+    /* background-image: url(./image/thunderstorm-3441687_960_720.jpg); */
+    /* background-color: #79b3b3; */
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 55%;
+    height: 150px;
+    margin-top: -120px;
+    margin-left: 77px;
+    border-radius: 20px;
+  
+  } 
   
 
-}
-
-#google{
-  margin: 10px;
-  color: #d82e10;
-  border-radius: 20px;
-}
-
-#W{
-  font-size: 30px;
-  margin: 0px;
-  font-weight: 300;
-}
-
-.name{
+.b1{
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(14, 10, 10);
+  border-radius: 20px ;
+  height: 150px;
+  width: 270px;
+  background-image: url();
+  /* background-size: cover; */
   margin: 10px;
 }
+.Shoes{
+  background-image: url('./image/foot.png');
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin-top:25px;
+      
+} 
 
-.Dob{
+.Shoesdetails{
+    /* background-image: url(./image/thunderstorm-3441687_960_720.jpg); */
+    /* background-color: #ffffff; */
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    height: 150px;
+    margin-top: -125px;
+    margin-left: 81px;
+    border-radius: 20px;
+  
+  } 
+
+.b2{
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(14, 10, 10);
+  border-radius: 20px ;
+  height: 150px;
+  width: 270px;
+  background-image: url();
+  /* background-size: cover; */
+  margin: 10px;
+}
+.Bag{
+  background-image: url('./image/bag.png');
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin-top:25px;
+      
+} 
+
+.Bagdetails{
+    /* background-color: #79b3b3; */
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    height: 150px;
+    margin-top: -125px;
+    margin-left: 82px;
+    border-radius: 20px;
+  
+  } 
+
+.c1{
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(14, 10, 10);
+  border-radius: 20px ;
+  height: 150px;
+  width: 270px;
+  background-image: url();
+  /* background-size: cover; */
+  margin: 10px;
+}
+.Grocery{
+  background-image: url('./image/grocery.png');
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin-top:25px;
+      
+} 
+
+.Grocerydetails{
+    /* background-color: #79b3b3; */
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    height: 150px;
+    margin-top: -125px;
+    margin-left: 82px;
+    border-radius: 20px;
+  
+  } 
+
+.c2{
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(14, 10, 10);
+  border-radius: 20px ;
+  height: 150px;
+  width: 270px;
+  background-image: url();
+  /* background-size: cover; */
+  margin: 10px;
+}
+.Sports{
+  background-image: url('./image/sports.png');
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin-top:25px;
+      
+} 
+
+.Sportsdetails{
+    /* background-color: #79b3b3; */
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    height: 150px;
+    margin-top: -125px;
+    margin-left: 80px;
+    border-radius: 20px;
+  
+  } 
+
+.d1{
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(14, 10, 10);
+  border-radius: 20px ;
+  height: 150px;
+  width: 270px;
+  background-image: url();
+  /* background-size: cover; */
+  margin: 10px;
+}
+.Makeup{
+  background-image: url('./image/makeup.png');
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin-top:25px;
+      
+} 
+
+.Makeupdetails{
+    /* background-color: #79b3b3; */
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    height: 150px;
+    margin-top: -125px;
+    margin-left: 82px;
+    border-radius: 20px;
+  
+  } 
+
+.d2{
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(14, 10, 10);
+  border-radius: 20px ;
+  height: 150px;
+  width: 270px;
+  background-image: url();
+  /* background-size: cover; */
+  margin: 10px;
+}
+.Perfume{
+  background-image: url('./image/perfume.png');
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin-top:25px;
+      
+} 
+
+.Perfumedetails{
+    /* background-color: #79b3b3; */
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    height: 150px;
+    margin-top: -125px;
+    margin-left: 80px;
+    border-radius: 20px;
+  
+  } 
+
+.e1{
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(14, 10, 10);
+  border-radius: 20px ;
+  height: 150px;
+  width: 270px;
+  background-image: url();
+  /* background-size: cover; */
+  margin: 10px;
+}
+.Laptop{
+  background-image: url('./image/laptop.png');
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin-top:25px;
+      
+} 
+
+.Laptopdetails{
+    /* background-color: #79b3b3; */
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    height: 150px;
+    margin-top: -125px;
+    margin-left: 85px;
+    border-radius: 20px;
+  
+  } 
+
+.e2{
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(14, 10, 10);
+  border-radius: 20px ;
+  height: 150px;
+  width: 270px;
+  background-image: url();
+  /* background-size: cover; */
+  margin: 10px;
+}
+.Bottel{
+  background-image: url('./image/bottel.png');
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin-top:25px;
+      
+} 
+
+.Botteldetails{
+    /* background-color: #79b3b3; */
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    height: 150px;
+    margin-top: -125px;
+    margin-left: 82px;
+    border-radius: 20px;
+  
+  } 
+
+
+
+/*
+.a2{
+  background-image: url('./image/clothing.png');
+  background-size: cover;
+  width: 100px;
+  height: 100px;
   margin: 20px;
+  
+  
 }
 
-.PhNo{
+.b1{
+  background-image: url('./image/foot.png');
+  background-size: cover;
+  width: 100px;
+  height: 100px;
   margin: 20px;
+  
 }
 
-#ok{
+.b2{
+  background-image: url('./image/bag.png');
+  background-size: cover;
+  width: 100px;
+  height: 100px;
   margin: 20px;
+  
 }
+
+.c1{
+  background-image: url('./image/grocery.png');
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  
+}
+
+.c2{
+  background-image: url('./image/sports.png');
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  
+}
+
+
+.d1{
+  background-image: url('./image/makeup.png');
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  
+}
+.d2{
+  background-image: url('./image/perfume.png');
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  
+}
+
+.e1{
+  background-image: url('./image/laptop.png');
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  
+}
+
+.e2{
+  background-image: url('./image/bottel.png');
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  
+}
+ */
