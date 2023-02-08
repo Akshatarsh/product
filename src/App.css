@@ -36,7 +36,7 @@
 } */
 
 #header{
-  background-image: url(./image/hand-drawn-shopping-pattern-design_23-2149628702.avif);
+  background-image: url('./image/hand-drawn-shopping-pattern-design_23-2149628702.avif');
   font-style: italic;
   color: #194e8b;
   width: 100%;
@@ -74,7 +74,7 @@
   border-radius: 20px ;
   height: 150px;
   width: 270px;
-  background-image: url();
+  /* background-image: url(); */
   background-size: cover;
   margin: 10px;
 }
@@ -115,7 +115,7 @@
   border-radius: 20px ;
   height: 150px;
   width: 270px;
-  background-image: url();
+  /* background-image: url(); */
   background-size: cover;
   margin: 10px;
 }
@@ -152,7 +152,7 @@
   border-radius: 20px ;
   height: 150px;
   width: 270px;
-  background-image: url();
+  /* background-image: url(); */
   /* background-size: cover; */
   margin: 10px;
 }
@@ -186,7 +186,7 @@
   border-radius: 20px ;
   height: 150px;
   width: 270px;
-  background-image: url();
+  /* background-image: url(); */
   /* background-size: cover; */
   margin: 10px;
 }
@@ -219,7 +219,7 @@
   border-radius: 20px ;
   height: 150px;
   width: 270px;
-  background-image: url();
+  /* background-image: url(); */
   /* background-size: cover; */
   margin: 10px;
 }
@@ -253,7 +253,7 @@
   border-radius: 20px ;
   height: 150px;
   width: 270px;
-  background-image: url();
+  /* background-image: url(); */
   /* background-size: cover; */
   margin: 10px;
 }
@@ -286,7 +286,7 @@
   border-radius: 20px ;
   height: 150px;
   width: 270px;
-  background-image: url();
+  /* background-image: url(); */
   /* background-size: cover; */
   margin: 10px;
 }
@@ -319,7 +319,7 @@
   border-radius: 20px ;
   height: 150px;
   width: 270px;
-  background-image: url();
+  /* background-image: url(); */
   /* background-size: cover; */
   margin: 10px;
 }
@@ -352,7 +352,7 @@
   border-radius: 20px ;
   height: 150px;
   width: 270px;
-  background-image: url();
+  /* background-image: url(); */
   /* background-size: cover; */
   margin: 10px;
 }
@@ -385,7 +385,7 @@
   border-radius: 20px ;
   height: 150px;
   width: 270px;
-  background-image: url();
+  /* background-image: url(); */
   /* background-size: cover; */
   margin: 10px;
 }
